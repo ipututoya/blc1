@@ -1,0 +1,254 @@
+<!-- Start of Omnih Booking Script -->
+<div id='omnih-app' data-hotel-code='1' class="container-fluid">
+    <form action="https://blacklavacamp.reserveonline.id/book/596" target="_blank">
+        <input name="checkin" type="hidden"/>
+        <input name="checkout" type="hidden" />
+        <div class="row">
+            <div className="form-group col">
+                <label for="">Checkin</label>
+                <div class="no-gutters row">
+                    <div class="col">
+                            <select class="form-control" name="checkin_day" id="checkin_day">
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                            <option value="11">11</option>
+                                                                            <option value="12">12</option>
+                                                                            <option value="13">13</option>
+                                                                            <option value="14">14</option>
+                                                                            <option value="15">15</option>
+                                                                            <option value="16">16</option>
+                                                                            <option value="17">17</option>
+                                                                            <option value="18">18</option>
+                                                                            <option value="19">19</option>
+                                                                            <option value="20">20</option>
+                                                                            <option value="21">21</option>
+                                                                            <option value="22">22</option>
+                                                                            <option value="23">23</option>
+                                                                            <option value="24">24</option>
+                                                                            <option value="25">25</option>
+                                                                            <option value="26">26</option>
+                                                                            <option value="27">27</option>
+                                                                            <option value="28">28</option>
+                                                                            <option value="29">29</option>
+                                                                            <option value="30">30</option>
+                                                                            <option value="31">31</option>
+                                                                    </select>
+                    </div>
+                    <div class="col">
+                            <select class="form-control" name="checkin_month" id="checkin_month">
+                                                                            <option value="1">January</option>                    
+                                                                            <option value="2">February</option>                    
+                                                                            <option value="3">March</option>                    
+                                                                            <option value="4">April</option>                    
+                                                                            <option value="5">May</option>                    
+                                                                            <option value="6">June</option>                    
+                                                                            <option value="7">July</option>                    
+                                                                            <option value="8">August</option>                    
+                                                                            <option value="9">September</option>                    
+                                                                            <option value="10">October</option>                    
+                                                                            <option value="11">November</option>                    
+                                                                            <option value="12">December</option>                    
+                                                                    </select>
+                    </div>
+                    <div class="col">
+                            <select class="form-control" name="checkin_year" id="checkin_year">
+                                                                            <option value="2023">2023</option>
+                                                                            <option value="2024">2024</option>
+                                                                    </select>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+            <div className="form-group col">
+                <label for="">Checkout</label>
+                <div class="no-gutters row">
+                    <div class="col">
+                        <select class="form-control" name="checkout_day" id="checkout_day">
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                            <option value="6">6</option>
+                                                            <option value="7">7</option>
+                                                            <option value="8">8</option>
+                                                            <option value="9">9</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
+                                                            <option value="13">13</option>
+                                                            <option value="14">14</option>
+                                                            <option value="15">15</option>
+                                                            <option value="16">16</option>
+                                                            <option value="17">17</option>
+                                                            <option value="18">18</option>
+                                                            <option value="19">19</option>
+                                                            <option value="20">20</option>
+                                                            <option value="21">21</option>
+                                                            <option value="22">22</option>
+                                                            <option value="23">23</option>
+                                                            <option value="24">24</option>
+                                                            <option value="25">25</option>
+                                                            <option value="26">26</option>
+                                                            <option value="27">27</option>
+                                                            <option value="28">28</option>
+                                                            <option value="29">29</option>
+                                                            <option value="30">30</option>
+                                                            <option value="31">31</option>
+                                                    </select>
+                    </div>
+                    <div class="col">
+                        <select class="form-control" name="checkout_month" id="checkout_month">
+                                                            <option value="1">January</option>                    
+                                                            <option value="2">February</option>                    
+                                                            <option value="3">March</option>                    
+                                                            <option value="4">April</option>                    
+                                                            <option value="5">May</option>                    
+                                                            <option value="6">June</option>                    
+                                                            <option value="7">July</option>                    
+                                                            <option value="8">August</option>                    
+                                                            <option value="9">September</option>                    
+                                                            <option value="10">October</option>                    
+                                                            <option value="11">November</option>                    
+                                                            <option value="12">December</option>                    
+                                                    </select>
+                    </div>
+                    <div class="col">
+                        <select class="form-control" name="checkout_year" id="checkout_year">
+                                                            <option value="2023">2023</option>
+                                                            <option value="2024">2024</option>
+                                                    </select>
+                    </div>
+                </div>
+            </div>
+            <div className="form-group col">
+                <label for="">Adults</label>
+                <select class="form-control" name="adult" id="adult">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                    </select>
+            </div>
+            <div className="form-group col">
+                <label for="">Children</label>
+                <select class="form-control" name="child" id="children">
+                                            <option value="0">-</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                    </select>
+            </div>
+            <div className="form-group col">
+                    <label for="">Infant</label>
+                    <select class="form-control" name="infant" id="infant">
+                                                    <option value="0">-</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                            </select>
+                </div>
+            <div className="form-group col">
+                <label for="">Promo Code</label>
+                <input class="form-control" name="promocode" id="promocode" value=""/>
+            </div>
+            <div className="form-group col">
+                <label for=""> </label>
+                <button class="btn btn-primary form-control">Check Availability</button>
+            </div>
+        </div>
+        
+    </form>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" async>
+    <script async>
+        window.onload = function(e){ 
+            // alert("ready");
+            
+            var ci_day = document.querySelector("[name='checkin_day']");
+            var ci_month = document.querySelector("[name='checkin_month']");
+            var ci_year = document.querySelector("[name='checkin_year']");
+
+            var co_day = document.querySelector("[name='checkout_day']");
+            var co_month = document.querySelector("[name='checkout_month']");
+            var co_year = document.querySelector("[name='checkout_year']");
+
+            var ci = document.querySelector("[name='checkin']");
+            var co = document.querySelector("[name='checkout']");
+
+            
+            // console.log({ci,co});
+
+            var updateCheck=function(){
+                
+                if(ci.value=="" || co.value==""){
+                    
+                    var today = dateParser(0);
+                    ci_year.value=today.year; ci_month.value=today.month; ci_day.value=today.day;
+                    
+                    var tomorrow = dateParser(1);
+                    co_year.value=tomorrow.year; co_month.value=tomorrow.month; co_day.value=tomorrow.day;
+                }
+
+                
+                ci.value = ci_year.value+"-"+ci_month.value+"-"+ci_day.value;
+                if(new Date(ci.value)>=new Date(co.value)){
+                    var tomorrow = dateParser(1,ci.value);
+                    co_year.value=tomorrow.year; co_month.value=tomorrow.month; co_day.value=tomorrow.day;
+                }
+                co.value = co_year.value+"-"+co_month.value+"-"+co_day.value;
+            }
+
+            var dateParser = function(increment = 0,dt=""){
+                // debugger;
+                if(dt==""){
+                    var date = new Date();
+                }else{
+                    var date = new Date(dt);
+                }
+                if(increment>0){
+                    date.setDate(date.getDate() + increment);
+                }
+                return {
+                    month:date.getMonth()+1,
+                    year:date.getFullYear(),
+                    day:date.getDate()
+                }
+            }
+
+            updateCheck();
+
+            ci_day.addEventListener("change",updateCheck);
+            ci_month.addEventListener("change",updateCheck);
+            ci_year.addEventListener("change",updateCheck);
+            co_day.addEventListener("change",updateCheck);
+            co_month.addEventListener("change",updateCheck);
+            co_year.addEventListener("change",updateCheck);
+        }
+    </script>
+</div>
+<!-- End of Omnih Booking Script -->
