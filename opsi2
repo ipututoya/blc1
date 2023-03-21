@@ -1,0 +1,21 @@
+<!-- Booking form 
+Put in body
+ - set target attribute to "_blank" if you want to redirect page to new tab
+-->
+<div id="app" class="omnih">
+    <calendar-form actionurl="https://blacklavacamp.reserveonline.id/book/596">
+    </calendar-form>
+</div>
+
+<!-- 
+    Styling script 
+    Put in the head tag
+-->
+<link href="https://omnihotelier.id/css/omnih-client.css" rel="stylesheet" ></link>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" ></link>
+
+<!-- 
+    Booking Script
+    Put in the end of body tag
+ -->
+<script src="https://omnihotelier.id/js/omnih-calendar.v.1.js" async></script>
