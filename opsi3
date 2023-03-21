@@ -1,0 +1,125 @@
+<!-- 
+    Styling script start
+    Put in the head tag
+	-->
+    <link rel="stylesheet" href="https://s3.ap-southeast-1.amazonaws.com/cdn.omnihotelier.com/assets/styles/bootstrap.min.v.1.3.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400" rel="stylesheet">
+    <link href="https://s3.ap-southeast-1.amazonaws.com/cdn.omnihotelier.com/assets/styles/omnih-style.v.1.3.css" rel="stylesheet">
+    <style>
+		#omnih-booking .form-booking .btn-submit {
+			background: #ff9e21;
+			border: none;
+			text-transform: capitalize;
+			display: block;
+			border-radius: 2px;
+			width: 100%;
+			height: 75px;
+			font-size: 16px;
+			font-weight: 400;
+			color: #fff;
+		}
+	</style>
+<!-- Styling script end -->
+
+
+<!-- Booking form start
+    Put in body
+    - set target attribute to "_blank" if you want to redirect page to new tab
+    - set action in form tag to omnih booking page
+-->
+<div id="omnih-booking" class="part">
+    <div class="part-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="form-booking">
+                    <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-center best">
+                            Best Rate Guarantee
+                        </div>
+                    </div>
+                    <form action="https://blacklavacamp.reserveonline.id/book/596" target="_blank">
+                        <input type="hidden" name="checkin" id="checkin" value="">
+                        <input type="hidden" name="checkout" id="checkout" value="">
+                        <div class="d-flex flex-column flex-lg-row flex-wrap justify-content-center content-form">
+                            <div class="form-group col-lg-3 col-12 custom-form-group">
+                                <span class="form-label">Check in - Check out</span>
+                                <input class="form-control" type="date-custom" name="daterange" required id="theDate" autocomplete="off">
+                            </div>
+                            <div class="d-flex col-lg-4 occupants">
+                            <div class="form-group col">
+                                <span class="form-label">Adult</span>
+                                <div class="d-flex justify-content-between align-items-baseline select-wrapper" style="background-color: #ffffff;">
+                                    <select name="adult" class="form-control select-custom">
+                                                                                    <option value="1">1</option>
+                                                                                    <option value="2">2</option>
+                                                                                    <option value="3">3</option>
+                                                                                    <option value="4">4</option>
+                                                                                    <option value="5">5</option>
+                                                                                    <option value="6">6</option>
+                                                                                    <option value="7">7</option>
+                                                                                    <option value="8">8</option>
+                                                                                    <option value="9">9</option>
+                                                                                    <option value="10">10</option>
+                                                                                    <option value="11">11</option>
+                                                                                    <option value="12">12</option>
+                                                                                    <option value="13">13</option>
+                                                                                    <option value="14">14</option>
+                                                                                    <option value="15">15</option>
+                                                                            </select>
+                                </div>
+                            </div>
+                            <div class="form-group col">
+                                <span class="form-label">Children</span>
+                                    <div class="d-flex justify-content-between align-items-baseline select-wrapper" style="background-color: #ffffff;">
+                                    <select name="child" class="form-control select-custom">
+                                                                                    <option value="0">-</option>
+                                                                                    <option value="1">1</option>
+                                                                                    <option value="2">2</option>
+                                                                                    <option value="3">3</option>
+                                                                                    <option value="4">4</option>
+                                                                                    <option value="5">5</option>
+                                                                            </select>
+                                </div>
+                            </div>
+                            <div class="form-group col">
+                                <span class="form-label">Infant</span>
+                                    <div class="d-flex justify-content-between align-items-baseline select-wrapper" style="background-color: #ffffff;">
+                                        <select name="infant" class="form-control select-custom">
+                                                                                            <option value="0">-</option>
+                                                                                            <option value="1">1</option>
+                                                                                            <option value="2">2</option>
+                                                                                            <option value="3">3</option>
+                                                                                            <option value="4">4</option>
+                                                                                            <option value="5">5</option>
+                                                                                    </select>
+                                    </div>
+                            </div>
+                            </div>
+                            <div class="form-group col-lg-2 col-12 custom-form-group">
+                                <span class="form-label">Promo Code</span>
+                                <input class="form-control" name="promocode" id="promocode" type="text" placeholder="enter your code" autocomplete="off">
+                            </div>
+                            <div class="btn-form col-lg-3 col-12">
+                                <button class="btn-submit">Check availability</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Booking form end -->
+
+
+<!-- 
+    Booking Script Start
+    Put in the end of body tag
+-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<script src="https://s3.ap-southeast-1.amazonaws.com/cdn.omnihotelier.com/assets/styles/omnih-app.v.1.3.js" defer></script>
+<!-- Booking Script End -->
